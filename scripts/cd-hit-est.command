@@ -1,0 +1,1 @@
+/Users/gracenye/Desktop/cdhit/cd-hit-est -i /Users/gracenye/Documents/SpringBoard_Projects/RBP_Prediction/data/intermediate/ago1234.fasta -o /Users/gracenye/Documents/SpringBoard_Projects/RBP_Prediction/data/intermediate/ago1234_clustered.fasta -c 0.8 -n 5
