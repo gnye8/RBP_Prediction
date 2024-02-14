@@ -24,12 +24,12 @@ if __name__=='__main__':
     	p_net_base_pairing = np.sum(bp_matrix, axis=0)
 
     	window_dict['sequence'] = seq
-    	window_dict['index'] = row['index']
-    	window_dict['ID'] = row['ID']
-    	window_dict['window_num'] = row['window_num']
+    	#window_dict['index'] = row['index']
+    	#window_dict['ID'] = row['ID']
+    	#window_dict['window_num'] = row['window_num']
     	window_dict['p_net_base_pairing'] = list(p_net_base_pairing)
     	
-    	base_pairing_dict[index] = window_dict
+    	base_pairing_dict[row['ID']] = window_dict
 
     save_file = open(f'{args.child_dataframe[:-4]}.json', 'w')
     json.dump(base_pairing_dict, save_file, indent=6)
