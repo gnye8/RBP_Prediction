@@ -58,12 +58,11 @@ This project explores how deep learning can be used to predict RBP-RNA interacti
 ---
 
 ## Repository Structure
-.
+
 ├── data/ # Preprocessed CLIP-seq data
+
 ├── notebooks/ # Jupyter notebooks for training and evaluation
-├── src/ # Model architecture and data pipeline scripts
-├── images/ # Evaluation plots and architecture diagrams
-├── requirements.txt # Python dependencies
+
 └── README.md # Project overview (this file)
 
 ---
