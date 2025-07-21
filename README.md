@@ -10,7 +10,7 @@ This project applies deep learning to predict whether RNA-binding proteins (RBPs
 
 RNA-binding proteins play key roles in RNA processing, localization, translation, and stability. Predicting their binding sites is crucial for understanding post-transcriptional gene regulation. While experimental methods like CLIP-seq can identify these interactions, they are time-consuming and resource-intensive.
 
-This project explores how deep learning can be used to predict RBP-RNA interactions directly from sequence data — a step toward accelerating hypothesis generation in RNA biology.
+This project explores how deep learning can be used to predict RBP-RNA interactions directly from sequence data, a step toward accelerating RNA biology.
 
 ---
 
@@ -30,9 +30,7 @@ This project explores how deep learning can be used to predict RBP-RNA interacti
 
 ## Results
 
-<p align="center">
-  <img src="images/metrics.png" alt="model metrics" width="600">
-</p>
+
 
 - Final model achieves strong performance across several RBPs.
 - Visual inspection of learned filters suggests model captures biologically relevant motifs.
